@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Head & Face Anatomy</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="viewport"></div>
+
+    <aside id="layers" class="panel">
+      <header>
+        <h1 id="title">Head & Face Anatomy</h1>
+      </header>
+
+      <section class="peel">
+        <div class="row between">
+          <label for="peel">Peel back</label>
+          <span id="peel-stage" class="muted">Skin</span>
+        </div>
+        <input id="peel" type="range" min="0" max="200" value="0" step="1" />
+        <div id="peel-ticks" class="ticks"></div>
+      </section>
+
+      <section>
+        <h2>Layers</h2>
+        <ul id="layer-list"></ul>
+      </section>
+
+      <section>
+        <input id="search" type="search" placeholder="Find a structure…" autocomplete="off" />
+        <ul id="search-results"></ul>
+      </section>
+
+      <footer class="row">
+        <button id="reset-view">Reset view</button>
+        <button id="show-all" hidden>Show hidden parts</button>
+      </footer>
+    </aside>
+
+    <aside id="info" class="panel" hidden>
+      <button id="info-close" class="icon" aria-label="Close">×</button>
+      <div class="layer-tag"><span id="info-swatch" class="swatch"></span><span id="info-layer"></span></div>
+      <h2 id="info-name"></h2>
+      <p id="info-desc"></p>
+      <div class="row">
+        <button id="btn-hide">Hide</button>
+        <button id="btn-isolate">Isolate</button>
+        <button id="btn-focus">Focus</button>
+      </div>
+      <p id="info-source" class="muted small"></p>
+    </aside>
+
+    <div id="hover-label" hidden></div>
+    <div id="loading"><div class="bar"><span></span></div><p>Loading models…</p></div>
+    <p id="credit" class="muted small"></p>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+{
+  "title": "Head & Face Anatomy",
+  "partsFiles": ["parts/head.generated.json", "parts/head.json"],
+  "sources": {
+    "zanatomy": {
+      "label": "Z-Anatomy (based on BodyParts3D)",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy"
+    }
+  },
+  "peel": ["skin", "muscles"],
+  "peelLabels": ["Skin", "Muscle", "Bone"],
+  "layers": [
+    {
+      "id": "skin",
+      "peelDepth": 0,
+      "label": "Skin",
+      "files": ["head/skin.glb"],
+      "color": "#d6a48c",
+      "roughness": 0.62,
+      "sheen": 0.35,
+      "doubleSided": true,
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "id": "muscles",
+      "peelDepth": 1,
+      "label": "Muscles",
+      "files": ["head/muscles.glb"],
+      "color": "#b5463e",
+      "roughness": 0.5,
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "id": "skull",
+      "peelDepth": 2,
+      "label": "Skull & cartilage",
+      "files": ["head/skull.glb"],
+      "color": "#e6dcc6",
+      "roughness": 0.7,
+      "colorRules": [{ "match": "cartilage|disc|ligament", "color": "#b9cfd6" }],
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "id": "teeth",
+      "peelDepth": 2,
+      "label": "Teeth",
+      "files": ["head/teeth.glb"],
+      "color": "#f3eee0",
+      "roughness": 0.35,
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "id": "eyes",
+      "peelDepth": 1,
+      "label": "Eyes",
+      "files": ["head/eyes.glb"],
+      "color": "#ece9e4",
+      "roughness": 0.3,
+      "colorRules": [
+        { "match": "iris", "color": "#5b7fa3" },
+        { "match": "retina|choroid", "color": "#b5574a" },
+        { "match": "cornea|chamber|anterior segment", "color": "#d8ecf4", "opacity": 0.18 },
+        { "match": "lens", "color": "#e9f1d8", "opacity": 0.5 },
+        { "match": "lacrimal", "color": "#d8a46f" }
+      ],
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "id": "nerves",
+      "peelDepth": 1,
+      "label": "Nerves",
+      "files": ["head/nerves.glb"],
+      "color": "#e8c547",
+      "roughness": 0.45,
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "id": "vessels",
+      "peelDepth": 1,
+      "label": "Blood vessels",
+      "files": ["head/vessels.glb"],
+      "color": "#c4302b",
+      "roughness": 0.4,
+      "colorRules": [{ "match": "vein|sinus|plexus", "color": "#3c5aa6" }],
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "id": "glands",
+      "peelDepth": 1,
+      "label": "Glands & soft tissue",
+      "files": ["head/glands.glb"],
+      "color": "#c89a72",
+      "roughness": 0.55,
+      "colorRules": [
+        { "match": "node|tonsil", "color": "#7fae6e" },
+        { "match": "tongue|gingiva|palate|uvula|mucosa|pharynx|epiglottis", "color": "#d17a7a" }
+      ],
+      "visible": false,
+      "opacity": 1
+    },
+    {
+      "id": "brain",
+      "peelDepth": 2,
+      "label": "Brain",
+      "files": ["head/brain.glb"],
+      "color": "#dcbcb4",
+      "roughness": 0.6,
+      "visible": false,
+      "opacity": 1
+    }
+  ]
+}

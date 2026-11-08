@@ -1,0 +1,687 @@
+{
+ "_comment": "Hand-edited names and descriptions. Fields here override parts/head.generated.json (which tools/build_head_zanatomy.py rewrites). Keys are part ids, shown in the info panel.",
+ "accessory_branch_of_middle_meningeal_artery_left": {
+  "description": "A small branch of the middle meningeal artery that passes through the foramen ovale to supply the pterygoid muscles, the auditory tube and the trigeminal ganglion region.",
+  "descriptionSource": "hand-written"
+ },
+ "accessory_branch_of_middle_meningeal_artery_right": {
+  "description": "A small branch of the middle meningeal artery that passes through the foramen ovale to supply the pterygoid muscles, the auditory tube and the trigeminal ganglion region.",
+  "descriptionSource": "hand-written"
+ },
+ "ampulla_of_lacrimal_canaliculus_left": {
+  "description": "The small dilation at the bend of each lacrimal canaliculus, the channel that carries tears from the eyelid margin to the lacrimal sac.",
+  "descriptionSource": "hand-written"
+ },
+ "ampulla_of_lacrimal_canaliculus_right": {
+  "description": "The small dilation at the bend of each lacrimal canaliculus, the channel that carries tears from the eyelid margin to the lacrimal sac.",
+  "descriptionSource": "hand-written"
+ },
+ "anterior_cells_of_ethmoid_bone_left": {
+  "description": "The front group of air cells in the ethmoidal labyrinth, draining into the middle meatus of the nose.",
+  "descriptionSource": "hand-written"
+ },
+ "anterior_cells_of_ethmoid_bone_right": {
+  "description": "The front group of air cells in the ethmoidal labyrinth, draining into the middle meatus of the nose.",
+  "descriptionSource": "hand-written"
+ },
+ "anterior_deep_temporal_artery_left": {
+  "description": "A branch of the maxillary artery that runs up deep to the temporalis muscle, supplying it and anastomosing with the lacrimal artery.",
+  "descriptionSource": "hand-written"
+ },
+ "anterior_deep_temporal_artery_right": {
+  "description": "A branch of the maxillary artery that runs up deep to the temporalis muscle, supplying it and anastomosing with the lacrimal artery.",
+  "descriptionSource": "hand-written"
+ },
+ "anterior_occipital_sulcus_left": {
+  "name": "Anterior occipital sulcus (left)",
+  "description": "A variable groove on the lateral surface separating the occipital lobe from the temporal and parietal lobes.",
+  "descriptionSource": "hand-written"
+ },
+ "anterior_occipital_sulcus_right": {
+  "name": "Anterior occipital sulcus (right)",
+  "description": "A variable groove on the lateral surface separating the occipital lobe from the temporal and parietal lobes.",
+  "descriptionSource": "hand-written"
+ },
+ "anterior_quadrangular_lobule_left": {
+  "description": "The front part of the cerebellar hemisphere's upper surface, lying in front of the primary fissure (part of the anterior lobe).",
+  "descriptionSource": "hand-written"
+ },
+ "anterior_quadrangular_lobule_right": {
+  "description": "The front part of the cerebellar hemisphere's upper surface, lying in front of the primary fissure (part of the anterior lobe).",
+  "descriptionSource": "hand-written"
+ },
+ "anterior_septal_branches_of_anterior_ethmoidal_artery_left": {
+  "description": "Small branches of the anterior ethmoidal artery that supply the front and upper part of the nasal septum.",
+  "descriptionSource": "hand-written"
+ },
+ "anterior_septal_branches_of_anterior_ethmoidal_artery_right": {
+  "description": "Small branches of the anterior ethmoidal artery that supply the front and upper part of the nasal septum.",
+  "descriptionSource": "hand-written"
+ },
+ "anterior_temporal_branch_left": {
+  "description": "A cortical branch of the middle cerebral artery that supplies the front of the temporal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "anterior_temporal_branch_right": {
+  "description": "A cortical branch of the middle cerebral artery that supplies the front of the temporal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "apex_of_auricle_left": {
+  "description": "The upper tip of the helix of the external ear.",
+  "descriptionSource": "hand-written"
+ },
+ "apex_of_auricle_right": {
+  "description": "The upper tip of the helix of the external ear.",
+  "descriptionSource": "hand-written"
+ },
+ "aqueduct_of_midbrain": {
+  "description": "The narrow channel through the midbrain connecting the third and fourth ventricles, carrying cerebrospinal fluid.",
+  "descriptionSource": "hand-written"
+ },
+ "artery_of_central_sulcus_left": {
+  "description": "A cortical branch of the middle cerebral artery that runs in the central sulcus, supplying the motor and sensory cortex on either side.",
+  "descriptionSource": "hand-written"
+ },
+ "artery_of_central_sulcus_right": {
+  "description": "A cortical branch of the middle cerebral artery that runs in the central sulcus, supplying the motor and sensory cortex on either side.",
+  "descriptionSource": "hand-written"
+ },
+ "artery_of_precentral_sulcus_left": {
+  "description": "A cortical branch of the middle cerebral artery that follows the precentral sulcus and supplies the premotor area.",
+  "descriptionSource": "hand-written"
+ },
+ "artery_of_precentral_sulcus_right": {
+  "description": "A cortical branch of the middle cerebral artery that follows the precentral sulcus and supplies the premotor area.",
+  "descriptionSource": "hand-written"
+ },
+ "artery_of_pterygoid_canal_left": {
+  "description": "A small branch of the maxillary artery that runs back through the pterygoid canal to supply the upper pharynx and auditory tube.",
+  "descriptionSource": "hand-written"
+ },
+ "artery_of_pterygoid_canal_right": {
+  "description": "A small branch of the maxillary artery that runs back through the pterygoid canal to supply the upper pharynx and auditory tube.",
+  "descriptionSource": "hand-written"
+ },
+ "auricular_tubercle_left": {
+  "description": "A small projection on the upper back part of the helix (Darwin's tubercle), present in some people.",
+  "descriptionSource": "hand-written"
+ },
+ "auricular_tubercle_right": {
+  "description": "A small projection on the upper back part of the helix (Darwin's tubercle), present in some people.",
+  "descriptionSource": "hand-written"
+ },
+ "base_of_peduncle_left": {
+  "description": "The front part of the cerebral peduncle (crus cerebri) in the midbrain, carrying descending motor fibres.",
+  "descriptionSource": "hand-written"
+ },
+ "base_of_peduncle_right": {
+  "description": "The front part of the cerebral peduncle (crus cerebri) in the midbrain, carrying descending motor fibres.",
+  "descriptionSource": "hand-written"
+ },
+ "biventral_lobule_left": {
+  "description": "A lobule on the underside of the cerebellar hemisphere, lying in front of the tonsil.",
+  "descriptionSource": "hand-written"
+ },
+ "biventral_lobule_right": {
+  "description": "A lobule on the underside of the cerebellar hemisphere, lying in front of the tonsil.",
+  "descriptionSource": "hand-written"
+ },
+ "branch_to_angular_gyrus_left": {
+  "description": "The terminal cortical branch of the middle cerebral artery, supplying the angular gyrus of the parietal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "branch_to_angular_gyrus_right": {
+  "description": "The terminal cortical branch of the middle cerebral artery, supplying the angular gyrus of the parietal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "central_canal": {
+  "name": "Central canal",
+  "description": "The narrow fluid-filled canal that continues from the fourth ventricle down through the medulla and spinal cord.",
+  "descriptionSource": "hand-written"
+ },
+ "ciliary_body_curve_right": {
+  "name": "Ciliary body (right)",
+  "description": "The ring of muscle and folded tissue behind the iris. It makes aqueous humour and changes the shape of the lens to focus.",
+  "descriptionSource": "hand-written"
+ },
+ "cingulate_gyrus_and_sulcus_posterior_dorsal_part_left": {
+  "description": "The back upper part of the cingulate gyrus on the medial surface of the hemisphere, involved in attention and spatial memory.",
+  "descriptionSource": "hand-written"
+ },
+ "cingulate_gyrus_and_sulcus_posterior_dorsal_part_right": {
+  "description": "The back upper part of the cingulate gyrus on the medial surface of the hemisphere, involved in attention and spatial memory.",
+  "descriptionSource": "hand-written"
+ },
+ "declive": {
+  "description": "A part of the cerebellar vermis just behind the primary fissure, continuous with the simple lobule.",
+  "descriptionSource": "hand-written"
+ },
+ "distal_lateral_striate_branches_left": {
+  "description": "Lenticulostriate arteries arising from the middle cerebral artery that pierce the base of the brain to supply the basal ganglia and internal capsule.",
+  "descriptionSource": "hand-written"
+ },
+ "distal_lateral_striate_branches_right": {
+  "description": "Lenticulostriate arteries arising from the middle cerebral artery that pierce the base of the brain to supply the basal ganglia and internal capsule.",
+  "descriptionSource": "hand-written"
+ },
+ "eminentia_conchae_left": {
+  "description": "The bulge on the back of the auricle that corresponds to the hollow of the concha on the front.",
+  "descriptionSource": "hand-written"
+ },
+ "eminentia_conchae_right": {
+  "description": "The bulge on the back of the auricle that corresponds to the hollow of the concha on the front.",
+  "descriptionSource": "hand-written"
+ },
+ "eminentia_fossae_triangularis_left": {
+  "description": "The bulge on the back of the auricle corresponding to the triangular fossa on the front.",
+  "descriptionSource": "hand-written"
+ },
+ "eminentia_fossae_triangularis_right": {
+  "description": "The bulge on the back of the auricle corresponding to the triangular fossa on the front.",
+  "descriptionSource": "hand-written"
+ },
+ "eminentia_scaphae_left": {
+  "description": "The bulge on the back of the auricle corresponding to the scapha, the groove behind the helix.",
+  "descriptionSource": "hand-written"
+ },
+ "eminentia_scaphae_right": {
+  "description": "The bulge on the back of the auricle corresponding to the scapha, the groove behind the helix.",
+  "descriptionSource": "hand-written"
+ },
+ "folium_of_vermis": {
+  "description": "A small leaf-like part of the cerebellar vermis between the declive and the tuber.",
+  "descriptionSource": "hand-written"
+ },
+ "frontal_branch_of_superficial_temporal_artery_left": {
+  "description": "One of the two terminal branches of the superficial temporal artery, running forward across the temple to supply the scalp and forehead.",
+  "descriptionSource": "hand-written"
+ },
+ "frontal_branch_of_superficial_temporal_artery_right": {
+  "description": "One of the two terminal branches of the superficial temporal artery, running forward across the temple to supply the scalp and forehead.",
+  "descriptionSource": "hand-written"
+ },
+ "frontal_branches_of_callosomarginal_artery_left": {
+  "description": "Branches of the callosomarginal artery, itself a branch of the anterior cerebral artery, supplying the medial surface of the frontal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "frontal_branches_of_callosomarginal_artery_right": {
+  "description": "Branches of the callosomarginal artery, itself a branch of the anterior cerebral artery, supplying the medial surface of the frontal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "globus_pallidus_left": {
+  "description": "The inner part of the lentiform nucleus in the basal ganglia. It is the main output station that regulates voluntary movement.",
+  "descriptionSource": "hand-written"
+ },
+ "globus_pallidus_right": {
+  "description": "The inner part of the lentiform nucleus in the basal ganglia. It is the main output station that regulates voluntary movement.",
+  "descriptionSource": "hand-written"
+ },
+ "gracile_lobule_left": {
+  "description": "A lobule on the underside of the cerebellar hemisphere (paramedian lobule), between the inferior semilunar and biventral lobules.",
+  "descriptionSource": "hand-written"
+ },
+ "gracile_lobule_right": {
+  "description": "A lobule on the underside of the cerebellar hemisphere (paramedian lobule), between the inferior semilunar and biventral lobules.",
+  "descriptionSource": "hand-written"
+ },
+ "inferior_semilunar_lobule_left": {
+  "description": "A crescent-shaped lobule on the underside of the cerebellar hemisphere (crus II of the ansiform lobule).",
+  "descriptionSource": "hand-written"
+ },
+ "inferior_semilunar_lobule_right": {
+  "description": "A crescent-shaped lobule on the underside of the cerebellar hemisphere (crus II of the ansiform lobule).",
+  "descriptionSource": "hand-written"
+ },
+ "infra_auricular_nodes_left": {
+  "description": "Lymph nodes just below the ear, part of the parotid group, draining the scalp, ear and side of the face.",
+  "descriptionSource": "hand-written"
+ },
+ "infra_auricular_nodes_right": {
+  "description": "Lymph nodes just below the ear, part of the parotid group, draining the scalp, ear and side of the face.",
+  "descriptionSource": "hand-written"
+ },
+ "infra_orbital_region_left": {
+  "description": "The surface region of the face below the orbit and beside the nose, overlying the maxilla.",
+  "descriptionSource": "hand-written"
+ },
+ "infra_orbital_region_right": {
+  "description": "The surface region of the face below the orbit and beside the nose, overlying the maxilla.",
+  "descriptionSource": "hand-written"
+ },
+ "insular_branches_of_middle_cerebral_artery_m2_right": {
+  "description": "The M2 segment of the middle cerebral artery, whose branches run over the insula deep within the lateral sulcus.",
+  "descriptionSource": "hand-written"
+ },
+ "insular_branches_of_middle_cerebral_artery_m2_segment_left": {
+  "name": "Insular branches of middle cerebral artery (M2) (left)",
+  "description": "The M2 segment of the middle cerebral artery, whose branches run over the insula deep within the lateral sulcus.",
+  "descriptionSource": "hand-written"
+ },
+ "intraglandular_parotid_nodes_left": {
+  "description": "Lymph nodes embedded within the parotid gland, draining the forehead, temple, eyelids and external ear.",
+  "descriptionSource": "hand-written"
+ },
+ "intraglandular_parotid_nodes_right": {
+  "description": "Lymph nodes embedded within the parotid gland, draining the forehead, temple, eyelids and external ear.",
+  "descriptionSource": "hand-written"
+ },
+ "lat_fis_ant_horizont_left": {
+  "name": "Anterior horizontal ramus of lateral sulcus (left)",
+  "description": "The short forward branch of the lateral (Sylvian) fissure, bordering the triangular and orbital parts of the inferior frontal gyrus.",
+  "descriptionSource": "hand-written"
+ },
+ "lat_fis_ant_horizont_right": {
+  "name": "Anterior horizontal ramus of lateral sulcus (right)",
+  "description": "The short forward branch of the lateral (Sylvian) fissure, bordering the triangular and orbital parts of the inferior frontal gyrus.",
+  "descriptionSource": "hand-written"
+ },
+ "lat_fis_ant_vertical_left": {
+  "name": "Anterior ascending ramus of lateral sulcus (left)",
+  "description": "The short upward branch of the lateral fissure separating the triangular and opercular parts of the inferior frontal gyrus.",
+  "descriptionSource": "hand-written"
+ },
+ "lat_fis_ant_vertical_right": {
+  "name": "Anterior ascending ramus of lateral sulcus (right)",
+  "description": "The short upward branch of the lateral fissure separating the triangular and opercular parts of the inferior frontal gyrus.",
+  "descriptionSource": "hand-written"
+ },
+ "lat_fis_post_left": {
+  "name": "Posterior ramus of lateral sulcus (left)",
+  "description": "The long main branch of the lateral fissure, separating the temporal lobe below from the frontal and parietal lobes above.",
+  "descriptionSource": "hand-written"
+ },
+ "lat_fis_post_right": {
+  "name": "Posterior ramus of lateral sulcus (right)",
+  "description": "The long main branch of the lateral fissure, separating the temporal lobe below from the frontal and parietal lobes above.",
+  "descriptionSource": "hand-written"
+ },
+ "lateral_frontobasal_artery_left": {
+  "description": "A branch of the middle cerebral artery (also called the lateral orbitofrontal artery) that supplies the underside of the frontal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "lateral_frontobasal_artery_right": {
+  "description": "A branch of the middle cerebral artery (also called the lateral orbitofrontal artery) that supplies the underside of the frontal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "lateral_pontine_branches_of_basilar_artery_left": {
+  "description": "Small branches of the basilar artery that supply the lateral part of the pons.",
+  "descriptionSource": "hand-written"
+ },
+ "lateral_pontine_branches_of_basilar_artery_right": {
+  "description": "Small branches of the basilar artery that supply the lateral part of the pons.",
+  "descriptionSource": "hand-written"
+ },
+ "lateral_superior_jugular_node_left": {
+  "description": "A deep cervical lymph node along the upper internal jugular vein, receiving lymph from much of the head.",
+  "descriptionSource": "hand-written"
+ },
+ "lateral_superior_jugular_node_right": {
+  "description": "A deep cervical lymph node along the upper internal jugular vein, receiving lymph from much of the head.",
+  "descriptionSource": "hand-written"
+ },
+ "lentiform_nucleus_left": {
+  "description": "A lens-shaped mass of grey matter in the basal ganglia, made up of the putamen and the globus pallidus.",
+  "descriptionSource": "hand-written"
+ },
+ "lentiform_nucleus_right": {
+  "description": "A lens-shaped mass of grey matter in the basal ganglia, made up of the putamen and the globus pallidus.",
+  "descriptionSource": "hand-written"
+ },
+ "lingual_gyrus_left": {
+  "description": "A gyrus on the medial surface of the occipital lobe below the calcarine sulcus, involved in visual processing.",
+  "descriptionSource": "hand-written"
+ },
+ "lingual_gyrus_right": {
+  "description": "A gyrus on the medial surface of the occipital lobe below the calcarine sulcus, involved in visual processing.",
+  "descriptionSource": "hand-written"
+ },
+ "lingual_vein_left": {
+  "description": "A vein draining the tongue, running with the lingual artery and emptying into the internal jugular vein.",
+  "descriptionSource": "hand-written"
+ },
+ "lingual_vein_right": {
+  "description": "A vein draining the tongue, running with the lingual artery and emptying into the internal jugular vein.",
+  "descriptionSource": "hand-written"
+ },
+ "mamillary_body_left": {
+  "description": "A pair of small round bodies on the underside of the hypothalamus, part of the circuit for memory (the Papez circuit).",
+  "descriptionSource": "hand-written"
+ },
+ "mamillary_body_right": {
+  "description": "A pair of small round bodies on the underside of the hypothalamus, part of the circuit for memory (the Papez circuit).",
+  "descriptionSource": "hand-written"
+ },
+ "medial_pontine_branches_of_basilar_artery_left": {
+  "description": "Short paramedian branches of the basilar artery that supply the medial part of the pons.",
+  "descriptionSource": "hand-written"
+ },
+ "medial_pontine_branches_of_basilar_artery_right": {
+  "description": "Short paramedian branches of the basilar artery that supply the medial part of the pons.",
+  "descriptionSource": "hand-written"
+ },
+ "mental_branch_of_inferior_alveolar_artery_left": {
+  "description": "The terminal branch of the inferior alveolar artery that leaves the mandible through the mental foramen to supply the chin and lower lip.",
+  "descriptionSource": "hand-written"
+ },
+ "mental_branch_of_inferior_alveolar_artery_right": {
+  "description": "The terminal branch of the inferior alveolar artery that leaves the mandible through the mental foramen to supply the chin and lower lip.",
+  "descriptionSource": "hand-written"
+ },
+ "middle_cells_of_ethmoid_bone_left": {
+  "description": "The middle group of ethmoidal air cells, opening into the middle meatus of the nose.",
+  "descriptionSource": "hand-written"
+ },
+ "middle_cells_of_ethmoid_bone_right": {
+  "description": "The middle group of ethmoidal air cells, opening into the middle meatus of the nose.",
+  "descriptionSource": "hand-written"
+ },
+ "middle_cerebral_artery_m3_segment_left": {
+  "description": "The opercular segment of the middle cerebral artery, where its branches loop over the frontal, parietal and temporal opercula towards the surface.",
+  "descriptionSource": "hand-written"
+ },
+ "middle_cerebral_artery_m3_segment_right": {
+  "name": "Middle cerebral artery (M3 segment) (right)",
+  "description": "The opercular segment of the middle cerebral artery, where its branches loop over the frontal, parietal and temporal opercula towards the surface.",
+  "descriptionSource": "hand-written"
+ },
+ "mucosa_of_nasal_cavity": {
+  "description": "The mucous membrane lining the nasal cavity. It warms, moistens and filters inhaled air, and contains the olfactory area in its roof.",
+  "descriptionSource": "hand-written"
+ },
+ "mylohyoid_branch_of_inferior_alveolar_artery_left": {
+  "description": "A branch of the inferior alveolar artery that runs in the mylohyoid groove of the mandible with the nerve to mylohyoid, supplying the mylohyoid muscle.",
+  "descriptionSource": "hand-written"
+ },
+ "mylohyoid_branch_of_inferior_alveolar_artery_right": {
+  "description": "A branch of the inferior alveolar artery that runs in the mylohyoid groove of the mandible with the nerve to mylohyoid, supplying the mylohyoid muscle.",
+  "descriptionSource": "hand-written"
+ },
+ "nerve_to_mylohyoid_muscle_left": {
+  "description": "A branch of the inferior alveolar nerve (from the mandibular division of the trigeminal nerve) supplying the mylohyoid muscle and the anterior belly of digastric.",
+  "descriptionSource": "hand-written"
+ },
+ "nerve_to_mylohyoid_muscle_right": {
+  "description": "A branch of the inferior alveolar nerve (from the mandibular division of the trigeminal nerve) supplying the mylohyoid muscle and the anterior belly of digastric.",
+  "descriptionSource": "hand-written"
+ },
+ "nucleus_pulposus_c2_c3": {
+  "description": "The gel-like core of the intervertebral disc between the second and third cervical vertebrae, which absorbs compressive load.",
+  "descriptionSource": "hand-written"
+ },
+ "nucleus_pulposus_c3_c4": {
+  "description": "The gel-like core of the intervertebral disc between the third and fourth cervical vertebrae.",
+  "descriptionSource": "hand-written"
+ },
+ "nucleus_pulposus_c4_c5": {
+  "description": "The gel-like core of the intervertebral disc between the fourth and fifth cervical vertebrae.",
+  "descriptionSource": "hand-written"
+ },
+ "occipital_sinus": {
+  "description": "The smallest dural venous sinus, running in the attached margin of the falx cerebelli and draining into the confluence of sinuses.",
+  "descriptionSource": "hand-written"
+ },
+ "occipitotemporal_sulcus_lateral_part_left": {
+  "name": "Occipitotemporal sulcus (lateral part) (left)",
+  "description": "The groove on the underside of the temporal and occipital lobes separating the inferior temporal gyrus from the fusiform gyrus.",
+  "descriptionSource": "hand-written"
+ },
+ "occipitotemporal_sulcus_lateral_part_right": {
+  "name": "Occipitotemporal sulcus (lateral part) (right)",
+  "description": "The groove on the underside of the temporal and occipital lobes separating the inferior temporal gyrus from the fusiform gyrus.",
+  "descriptionSource": "hand-written"
+ },
+ "orbitofrontal_branches_of_anterior_cerebral_artery_left": {
+  "description": "Branches of the anterior cerebral artery supplying the orbital (under) surface of the frontal lobe and the olfactory region.",
+  "descriptionSource": "hand-written"
+ },
+ "orbitofrontal_branches_of_anterior_cerebral_artery_right": {
+  "description": "Branches of the anterior cerebral artery supplying the orbital (under) surface of the frontal lobe and the olfactory region.",
+  "descriptionSource": "hand-written"
+ },
+ "paracentral_sulcus_left": {
+  "description": "A groove on the medial surface of the hemisphere marking the front edge of the paracentral lobule.",
+  "descriptionSource": "hand-written"
+ },
+ "paracentral_sulcus_right": {
+  "description": "A groove on the medial surface of the hemisphere marking the front edge of the paracentral lobule.",
+  "descriptionSource": "hand-written"
+ },
+ "parietal_branches_of_middle_cerebral_artery_left": {
+  "description": "Cortical branches of the middle cerebral artery supplying the lateral surface of the parietal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "parietal_branches_of_middle_cerebral_artery_right": {
+  "description": "Cortical branches of the middle cerebral artery supplying the lateral surface of the parietal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "parotideomasseteric_region_left": {
+  "description": "The surface region of the side of the face over the parotid gland and masseter muscle, in front of the ear.",
+  "descriptionSource": "hand-written"
+ },
+ "parotideomasseteric_region_right": {
+  "description": "The surface region of the side of the face over the parotid gland and masseter muscle, in front of the ear.",
+  "descriptionSource": "hand-written"
+ },
+ "peduncle_of_flocculus_left": {
+  "description": "The stalk connecting the flocculus to the nodule of the vermis, part of the vestibular cerebellum.",
+  "descriptionSource": "hand-written"
+ },
+ "peduncle_of_flocculus_right": {
+  "description": "The stalk connecting the flocculus to the nodule of the vermis, part of the vestibular cerebellum.",
+  "descriptionSource": "hand-written"
+ },
+ "postcentral_arterial_branch_left": {
+  "description": "A cortical branch of the middle cerebral artery that runs along the postcentral sulcus, supplying sensory cortex.",
+  "descriptionSource": "hand-written"
+ },
+ "postcentral_arterial_branch_right": {
+  "description": "A cortical branch of the middle cerebral artery that runs along the postcentral sulcus, supplying sensory cortex.",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_cells_of_ethmoid_bone_left": {
+  "description": "The back group of ethmoidal air cells, opening into the superior meatus of the nose.",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_cells_of_ethmoid_bone_right": {
+  "description": "The back group of ethmoidal air cells, opening into the superior meatus of the nose.",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_deep_temporal_artery_left": {
+  "description": "A branch of the maxillary artery that ascends between the temporalis muscle and the skull to supply the back of the muscle.",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_deep_temporal_artery_right": {
+  "description": "A branch of the maxillary artery that ascends between the temporalis muscle and the skull to supply the back of the muscle.",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_lateral_nasal_branches_of_sphenopalatine_artery_left": {
+  "name": "Posterior lateral nasal branches of sphenopalatine artery (left)",
+  "description": "Branches of the sphenopalatine artery supplying the conchae and lateral wall of the nasal cavity, a common source of posterior nosebleeds.",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_lateral_nasal_branches_of_sphenopalatine_artery_right": {
+  "name": "Posterior lateral nasal branches of sphenopalatine artery (right)",
+  "description": "Branches of the sphenopalatine artery supplying the conchae and lateral wall of the nasal cavity, a common source of posterior nosebleeds.",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_parietal_artery_left": {
+  "description": "A cortical branch of the middle cerebral artery supplying the inferior and superior parietal lobules.",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_parietal_artery_right": {
+  "description": "A cortical branch of the middle cerebral artery supplying the inferior and superior parietal lobules.",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_quadrangular_lobule_left": {
+  "description": "The part of the upper cerebellar hemisphere just behind the primary fissure (the simple lobule).",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_quadrangular_lobule_right": {
+  "description": "The part of the upper cerebellar hemisphere just behind the primary fissure (the simple lobule).",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_temporal_branch_left": {
+  "description": "A cortical branch of the middle cerebral artery that supplies the back of the superior and middle temporal gyri.",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_temporal_branch_right": {
+  "description": "A cortical branch of the middle cerebral artery that supplies the back of the superior and middle temporal gyri.",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_transverse_collateral_sulcus_left": {
+  "description": "A small variable groove at the back of the collateral sulcus on the underside of the hemisphere.",
+  "descriptionSource": "hand-written"
+ },
+ "posterior_transverse_collateral_sulcus_right": {
+  "description": "A small variable groove at the back of the collateral sulcus on the underside of the hemisphere.",
+  "descriptionSource": "hand-written"
+ },
+ "pre_auricular_nodes_left": {
+  "description": "Lymph nodes in front of the tragus of the ear, draining the eyelids, temple and front of the ear. They can swell with eye infections.",
+  "descriptionSource": "hand-written"
+ },
+ "pre_auricular_nodes_right": {
+  "description": "Lymph nodes in front of the tragus of the ear, draining the eyelids, temple and front of the ear. They can swell with eye infections.",
+  "descriptionSource": "hand-written"
+ },
+ "prefrontal_artery_left": {
+  "description": "A cortical branch of the middle cerebral artery supplying the lateral prefrontal cortex.",
+  "descriptionSource": "hand-written"
+ },
+ "prefrontal_artery_right": {
+  "description": "A cortical branch of the middle cerebral artery supplying the lateral prefrontal cortex.",
+  "descriptionSource": "hand-written"
+ },
+ "proximal_lateral_striate_branches_left": {
+  "description": "The first lenticulostriate branches of the middle cerebral artery, supplying the basal ganglia and internal capsule. Their occlusion is a common cause of small deep strokes.",
+  "descriptionSource": "hand-written"
+ },
+ "proximal_lateral_striate_branches_right": {
+  "description": "The first lenticulostriate branches of the middle cerebral artery, supplying the basal ganglia and internal capsule. Their occlusion is a common cause of small deep strokes.",
+  "descriptionSource": "hand-written"
+ },
+ "pyramis_of_vermis": {
+  "description": "A part of the inferior cerebellar vermis between the tuber and the uvula.",
+  "descriptionSource": "hand-written"
+ },
+ "rectus_anterior_capitis_muscle_left": {
+  "description": "A short deep neck muscle from the atlas to the base of the occipital bone that flexes the head at the atlanto-occipital joint.",
+  "descriptionSource": "hand-written"
+ },
+ "rectus_anterior_capitis_muscle_right": {
+  "description": "A short deep neck muscle from the atlas to the base of the occipital bone that flexes the head at the atlanto-occipital joint.",
+  "descriptionSource": "hand-written"
+ },
+ "rectus_lateralis_capitis_muscle_left": {
+  "description": "A short muscle from the transverse process of the atlas to the jugular process of the occipital bone that bends the head to the side.",
+  "descriptionSource": "hand-written"
+ },
+ "rectus_lateralis_capitis_muscle_right": {
+  "description": "A short muscle from the transverse process of the atlas to the jugular process of the occipital bone that bends the head to the side.",
+  "descriptionSource": "hand-written"
+ },
+ "septal_branches_of_posterior_ethmoidal_artery_left": {
+  "description": "Small branches of the posterior ethmoidal artery supplying the upper back part of the nasal septum.",
+  "descriptionSource": "hand-written"
+ },
+ "septal_branches_of_posterior_ethmoidal_artery_right": {
+  "description": "Small branches of the posterior ethmoidal artery supplying the upper back part of the nasal septum.",
+  "descriptionSource": "hand-written"
+ },
+ "short_posterior_ciliary_arteries_left": {
+  "description": "Several small branches of the ophthalmic artery that pierce the sclera around the optic nerve to supply the choroid and optic disc.",
+  "descriptionSource": "hand-written"
+ },
+ "short_posterior_ciliary_arteries_right": {
+  "description": "Several small branches of the ophthalmic artery that pierce the sclera around the optic nerve to supply the choroid and optic disc.",
+  "descriptionSource": "hand-written"
+ },
+ "sulcus_interm_prim_jensen_left": {
+  "name": "Intermediate sulcus of Jensen (left)",
+  "description": "A variable groove in the inferior parietal lobule separating the supramarginal and angular gyri.",
+  "descriptionSource": "hand-written"
+ },
+ "sulcus_interm_prim_jensen_right": {
+  "name": "Intermediate sulcus of Jensen (right)",
+  "description": "A variable groove in the inferior parietal lobule separating the supramarginal and angular gyri.",
+  "descriptionSource": "hand-written"
+ },
+ "superficial_parotid_nodes_left": {
+  "description": "Lymph nodes on the surface of the parotid gland in front of the ear, draining the scalp, eyelids and cheek.",
+  "descriptionSource": "hand-written"
+ },
+ "superficial_parotid_nodes_right": {
+  "description": "Lymph nodes on the surface of the parotid gland in front of the ear, draining the scalp, eyelids and cheek.",
+  "descriptionSource": "hand-written"
+ },
+ "superior_semilunar_lobule_left": {
+  "description": "A crescent-shaped lobule on the back upper surface of the cerebellar hemisphere (crus I of the ansiform lobule).",
+  "descriptionSource": "hand-written"
+ },
+ "superior_semilunar_lobule_right": {
+  "description": "A crescent-shaped lobule on the back upper surface of the cerebellar hemisphere (crus I of the ansiform lobule).",
+  "descriptionSource": "hand-written"
+ },
+ "superior_thyroid_vein_left": {
+  "description": "A vein draining the upper part of the thyroid gland, accompanying the superior thyroid artery and emptying into the internal jugular vein.",
+  "descriptionSource": "hand-written"
+ },
+ "superior_thyroid_vein_right": {
+  "description": "A vein draining the upper part of the thyroid gland, accompanying the superior thyroid artery and emptying into the internal jugular vein.",
+  "descriptionSource": "hand-written"
+ },
+ "supra_orbital_artery_left": {
+  "description": "A branch of the ophthalmic artery that leaves the orbit through the supra-orbital notch to supply the forehead and scalp.",
+  "descriptionSource": "hand-written"
+ },
+ "supra_orbital_artery_right": {
+  "description": "A branch of the ophthalmic artery that leaves the orbit through the supra-orbital notch to supply the forehead and scalp.",
+  "descriptionSource": "hand-written"
+ },
+ "temporal_branches_of_middle_cerebral_artery_left": {
+  "description": "Cortical branches of the middle cerebral artery that supply the lateral surface of the temporal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "temporal_branches_of_middle_cerebral_artery_right": {
+  "description": "Cortical branches of the middle cerebral artery that supply the lateral surface of the temporal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "temporo_occipital_branch_left": {
+  "description": "A cortical branch of the middle cerebral artery supplying the junction of the temporal and occipital lobes.",
+  "descriptionSource": "hand-written"
+ },
+ "temporo_occipital_branch_right": {
+  "description": "A cortical branch of the middle cerebral artery supplying the junction of the temporal and occipital lobes.",
+  "descriptionSource": "hand-written"
+ },
+ "tonsil_of_cerebellum_left": {
+  "description": "A rounded lobule on the underside of each cerebellar hemisphere beside the vermis. Raised pressure can push it into the foramen magnum.",
+  "descriptionSource": "hand-written"
+ },
+ "tonsil_of_cerebellum_right": {
+  "description": "A rounded lobule on the underside of each cerebellar hemisphere beside the vermis. Raised pressure can push it into the foramen magnum.",
+  "descriptionSource": "hand-written"
+ },
+ "transverse_frontopolar_gyrus_and_sulcus_left": {
+  "name": "Transverse frontopolar gyri and sulci (left)",
+  "description": "Small transverse folds at the front pole of the frontal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "transverse_frontopolar_gyrus_and_sulcus_right": {
+  "name": "Transverse frontopolar gyri and sulci (right)",
+  "description": "Small transverse folds at the front pole of the frontal lobe.",
+  "descriptionSource": "hand-written"
+ },
+ "uvula_of_vermis": {
+  "description": "A part of the inferior cerebellar vermis between the pyramis and the nodule, flanked by the cerebellar tonsils.",
+  "descriptionSource": "hand-written"
+ },
+ "wing_of_central_lobule_left": {
+  "description": "The lateral extension of the central lobule of the vermis onto the cerebellar hemisphere.",
+  "descriptionSource": "hand-written"
+ },
+ "wing_of_central_lobule_right": {
+  "description": "The lateral extension of the central lobule of the vermis onto the cerebellar hemisphere.",
+  "descriptionSource": "hand-written"
+ }
+}
