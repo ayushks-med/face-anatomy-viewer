@@ -1,145 +1,115 @@
 # Head & Face Anatomy Viewer
 
-An interactive 3D viewer for the human head and face that runs in the browser (Three.js + Vite).
+An interactive 3D anatomy learning tool for exploring the structures of the human head and face in a web browser.
 
-- **Layers:** skin, muscles, skull and cartilage, teeth, eyes, nerves, blood vessels, glands and soft tissue, brain. Each layer has a show/hide toggle and an opacity slider.
-- **Peel back:** one slider fades skin → muscle → bone. Click the *Skin / Muscle / Bone* labels to jump straight to a stage.
-- **Hover** highlights a structure and shows its name. **Click** opens a side panel with its name and description, plus **Hide**, **Isolate** and **Focus** buttons.
-- **Search** box finds a structure by name. Choosing a result turns its layer on, peels down to it and flies the camera there.
-- **Reset view**, soft studio lighting and a neutral background.
-- There are 907 separately named structures. Models come from [Z-Anatomy](https://github.com/Z-Anatomy/Models-of-human-anatomy), which is based on BodyParts3D, under CC BY-SA 4.0. See [models/SOURCES.md](models/SOURCES.md).
+**Live demo:** [ayushks-med.github.io/face-anatomy-viewer](https://ayushks-med.github.io/face-anatomy-viewer/)
 
-## Run it
+**Creator:** [Ayush Kumar Singh](https://ayushks.github.io/) — an MBBS student interested in anatomy and building useful software.
 
-Requires Node.js 18+.
+This project brings medical learning and web development together: explore anatomical structures layer by layer, look up individual parts, and inspect them in 3D. It is an independent educational project, not a medical reference or a substitute for textbooks, teaching, or professional clinical advice.
+
+## What you can do
+
+- Explore **907 separately named anatomical structures** across the skin, muscles, bones and cartilage, teeth, eyes, nerves, blood vessels, glands, and brain.
+- Toggle anatomical layers and adjust their opacity.
+- Use the **Peel back** slider to fade from the skin toward the muscles and bone.
+- Hover over a structure to highlight it; select it to read its name and description.
+- Search for a structure and let the viewer reveal it and move the camera to it.
+- Hide, isolate, or focus on a selected structure.
+- Rotate, pan, and zoom around the model.
+
+## Try it online
+
+Open the [live viewer](https://ayushks-med.github.io/face-anatomy-viewer/). It runs in a modern browser; the 3D anatomy models may take a little time to load.
+
+## Run locally
+
+Use Node.js 22 (the deployment workflow uses Node.js 22).
 
 ```bash
+git clone https://github.com/ayushks-med/face-anatomy-viewer.git
+cd face-anatomy-viewer
 npm install
-npm run dev          # http://localhost:5173
+npm run dev
 ```
 
-Production build: `npm run build` writes a static site to `dist/`. Preview it with `npm run preview`, or serve `dist/` from any static host.
+Vite prints a local URL (usually `http://localhost:5173`). To create and preview a production build:
 
-**Controls**
-- Left-drag: rotate
-- Right-drag or Shift + drag: pan
-- Scroll: zoom (towards the cursor)
-- `Esc`: deselect or exit isolate
-- `H`: hide the selected part
-
-## Project layout
-
-```
-models/                     ← Vite publicDir: everything here is served at the site root
-  models.json               ← the config: layers, files, colours, peel order, sources
-  head/*.glb                ← one GLB per layer, one named mesh per structure
-  parts/head.generated.json ← names + descriptions written by the build script (don't edit)
-  parts/head.json           ← your edits; overrides the generated file field by field
-  SOURCES.md                ← origin, author and licence of every model
-src/
-  main.js                   ← loads config + parts files, starts the viewer
-  viewer.js                 ← scene, lighting, loading, layer/peel state, picking, camera
-  ui.js                     ← layer panel, peel slider, info panel, search
-  style.css
-tools/
-  build_head_zanatomy.py    ← Blender script: Z-Anatomy .blend → head/*.glb + parts JSON
-  optimize-models.mjs       ← meshopt-compresses GLBs in place
+```bash
+npm run build
+npm run preview
 ```
 
-## Editing names and descriptions
+## Controls
 
-Open `models/parts/head.json` and add or change entries keyed by part id:
+| Action | Control |
+|---|---|
+| Rotate | Left mouse button + drag |
+| Pan | Right mouse button + drag, or Shift + drag |
+| Zoom | Scroll |
+| Deselect or exit isolate | `Esc` |
+| Hide selected structure | `H` |
+
+## Built with
+
+- [Three.js](https://threejs.org/) for interactive 3D rendering
+- [Vite](https://vite.dev/) for development and production builds
+- [three-mesh-bvh](https://github.com/gkjohnson/three-mesh-bvh) for efficient mesh queries
+- Anatomical models from [Z-Anatomy](https://github.com/Z-Anatomy/Models-of-human-anatomy), based on BodyParts3D
+
+## Credits and model sources
+
+The anatomy is adapted from the [Z-Anatomy 3D atlas](https://github.com/Z-Anatomy/Models-of-human-anatomy), which incorporates work from [BodyParts3D](https://dbarchive.biosciencedbc.jp/en/bodyparts3d/index.html). The source, contributors, model changes, exclusions, and licensing details are documented in [`models/SOURCES.md`](models/SOURCES.md).
+
+Required attribution for the included model files:
+
+> Z-Anatomy - The libre 3D atlas of anatomy - CC-BY-SA 4.0
+>
+> BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International
+
+The included Z-Anatomy-derived 3D models are licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). If you redistribute or adapt those model files, provide attribution and share adaptations under the same license. Anatomical descriptions sourced from Wikipedia are identified in the generated data and are available under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Hand-written descriptions are identified separately.
+
+The viewer's source code does not currently have a separate open-source license. The model and description licenses do not automatically grant a license to reuse the software code.
+
+## Project structure
+
+```text
+src/                         Viewer, interface, and styles
+models/models.json           Layers, model files, colors, and source metadata
+models/head/*.glb            3D anatomy models, organized by layer
+models/parts/head.json       Hand-written name and description overrides
+models/parts/head.generated.json
+                             Generated model names and descriptions
+models/SOURCES.md            Detailed source and license record
+tools/build_head_zanatomy.py Model extraction and data generation
+tools/optimize-models.mjs    GLB mesh compression
+```
+
+## Contributing and editing anatomy data
+
+Corrections and improvements are welcome, especially to anatomical labels, descriptions, accessibility, and usability. Before contributing model assets, check their source and license requirements in [`models/SOURCES.md`](models/SOURCES.md).
+
+To edit a part's name or description, add an entry keyed by its part ID to `models/parts/head.json`:
 
 ```json
 {
   "zygomaticus_major_muscle_left": {
     "name": "Zygomaticus major (left)",
-    "description": "Pulls the corner of the mouth up and back: the smiling muscle."
+    "description": "Elevates the corner of the mouth."
   }
 }
 ```
 
-To find a part's id, click the part, then run `viewer.selected.userData.partId` in the browser console. Or search `head.generated.json`. Ids are the original atlas name in snake case, with `_left` or `_right` at the end. Reload the page to see your edits.
-
-Don't edit `head.generated.json`: the build script rewrites it, while `head.json` is never touched.
-
-## Adding a new model (e.g. the full body later)
-
-The viewer shows exactly what `models/models.json` lists. To add something:
-
-1. **Drop the GLB(s) into `models/`**, e.g. `models/body/muscles.glb`.
-2. **List them in `models/models.json`**, either by adding the files to an existing layer:
-   ```json
-   { "id": "muscles", "files": ["head/muscles.glb", "body/muscles.glb"], ... }
-   ```
-   or by adding a new layer:
-   ```json
-   {
-     "id": "organs",
-     "label": "Thoracic & abdominal organs",
-     "files": ["body/organs.glb"],
-     "color": "#c78a7a",
-     "roughness": 0.5,
-     "visible": true,
-     "peelDepth": 1,
-     "colorRules": [{ "match": "liver", "color": "#8a3b32" }]
-   }
-   ```
-3. **Optional: add names and descriptions.** Create `models/parts/body.json` and add it to `"partsFiles"`.
-4. If the new source isn't Z-Anatomy, add it under `"sources"` and set `"source": "<key>"` on its parts entries. That makes the info panel credit it. Then record it in `models/SOURCES.md`.
-
-**What a GLB needs:**
-- One mesh per anatomical structure. The mesh/node name is the part id, so use names with no spaces or dots, e.g. `left_biceps_brachii`. Three.js mangles names containing those characters.
-- Optionally, a glTF `extras.label` on each node with a readable name. Without it, the id is shown until you add a name in a parts file.
-- Materials are ignored: colour comes from the layer's `color` and `colorRules`.
-- Positions are in **metres, Y-up**. Every Z-Anatomy/BodyParts3D export shares one body coordinate frame (feet near y = 0, top of the head at y ≈ 1.7), so full-body files line up with the head automatically. Models from other sources must be scaled and moved into that frame before export.
-- The camera frames whatever is visible on load, so a full body just works.
-
-### Full body from Z-Anatomy (the easy path)
-
-`tools/build_head_zanatomy.py` already contains the whole pipeline, and only its selection limits make it head-only. To build the full body:
-
-1. Download the atlas from https://github.com/Z-Anatomy/Models-of-human-anatomy (`Z-Anatomy.zip`, ~87 MB) and unzip it. Install [Blender](https://www.blender.org/) 4.2+.
-2. Copy the script, e.g. to `tools/build_body_zanatomy.py`, and change:
-   - `Z_CENTRE_MIN = 1.48` and `Z_CUT = 1.45` → `-1` (keep everything, no clipping);
-   - the output folder `head` → `body`, and the parts filename `head.generated.json` → `body.generated.json`;
-   - review `EXCLUDE`. Z-Anatomy also bundles a CC BY-NC kidney model; leave it out if you need a commercial-friendly licence.
-3. Run it, then compress the output:
-   ```bash
-   blender -b /path/to/Z-Anatomy/Startup.blend --python tools/build_body_zanatomy.py -- models
-   npm run optimize -- models/body
-   ```
-4. Add `body/*.glb` to the layers in `models.json`, and add `parts/body.generated.json` to `partsFiles`.
-
-The full body is roughly 4,500 meshes. If loading gets slow, split layers into regions and load them lazily (see `Viewer.load`).
-
-### Rebuilding the head models
+Keep manual edits in `head.json`; `head.generated.json` is regenerated by the model build script. To rebuild the models, install Blender 4.2+ and provide the Z-Anatomy startup file:
 
 ```bash
 ZANATOMY_BLEND=/path/to/Z-Anatomy/Startup.blend npm run build:models
 ```
 
-This rewrites `models/head/*.glb` and `models/parts/head.generated.json`. Part ids are stable, so your `head.json` edits keep working. Blender opens the .blend with embedded scripts disabled; the build only reads geometry.
+## Deployment
 
-## models.json reference
+The site is deployed to GitHub Pages by [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) whenever changes are pushed to `main`.
 
-| Key | Meaning |
-|---|---|
-| `title` | Page/panel title |
-| `partsFiles` | JSON files of `{ id: { name, description, descriptionSource, source } }`, merged in order (later wins) |
-| `sources` | `{ key: { label, licence, url } }` shown in the info panel and footer |
-| `peel` | Layer ids faded by the peel slider, outermost first |
-| `peelLabels` | Labels under the slider (`peel.length + 1` entries) |
-| `layers[].id / label / files` | Layer identity and the GLBs it loads |
-| `layers[].color / roughness / sheen / doubleSided` | Material look |
-| `layers[].visible / opacity` | Initial state |
-| `layers[].peelDepth` | How far to peel when a part of this layer is picked from search |
-| `layers[].colorRules` | `[{ match: "regex", color, opacity }]`, matched against part names |
+---
 
-## Licences
-
-- **Models** (`models/head/*.glb`): CC BY-SA 4.0, derived from Z-Anatomy and BodyParts3D (© The Database Center for Life Science). If you redistribute them or derivatives, credit both and keep the same licence.
-- **Descriptions** marked `wikipedia`: CC BY-SA 3.0, from Wikipedia.
-- **Viewer code** (`src/`, `tools/`): yours to licence as you choose.
-
-Full details are in [models/SOURCES.md](models/SOURCES.md).
+Made by [Ayush Kumar Singh](https://ayushks.github.io/) — MBBS student and developer.
